@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('images/background.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.7);
+  z-index: 1;
+}
+
+.navbar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  margin-right: 51px;
+}
+
+.brand {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.brand .highlight {
+  color: #00cfff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.nav-links li a.active::after,
+.nav-links li a:hover::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #00cfff;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 100px;
+  top: 30%;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.hero-content span {
+  display: block;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #ccc;
+  max-width: 900px;
+}

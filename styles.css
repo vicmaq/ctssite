@@ -12,7 +12,7 @@ body, html {
 .hero {
   position: relative;
   height: 100vh;
-  background: url('http://s975404343.onlinehome.mx/images/background.jpg') no-repeat center center/cover;
+  background: url('./images/background.jpg') no-repeat center center/cover;
 }
 
 .overlay {

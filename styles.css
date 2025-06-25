@@ -105,3 +105,91 @@ body, html {
   color: #ccc;
   max-width: 900px;
 }
+
+
+/* ----------------------------
+   Responsive Styles for Mobile
+----------------------------- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .hero-content {
+    padding: 0 20px;
+    top: 20%;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content span {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 30px;
+  }
+
+  .brand {
+    font-size: 1.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-content span {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Burger menu button */
+.burger {
+  display: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 3;
+}
+
+/* Show burger and hide nav-links by default on mobile */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 5px 0;
+  }
+}

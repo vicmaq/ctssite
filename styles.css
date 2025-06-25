@@ -30,8 +30,9 @@ body, html {
   z-index: 2;
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 20px 40px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -41,7 +42,7 @@ body, html {
 
 .logo img {
   width: 150px;
-  margin-right: 51px;
+  margin-right: 10px;
 }
 
 .brand {
@@ -143,7 +144,7 @@ body, html {
 
 @media (max-width: 480px) {
   .logo img {
-    width: 30px;
+    width: 110px;
   }
 
   .brand {

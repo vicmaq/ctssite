@@ -51,6 +51,12 @@ body, html {
   color: #fff;
 }
 
+.brand2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
 .brand .highlight {
   color: #00cfff;
 }

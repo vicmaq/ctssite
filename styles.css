@@ -15,6 +15,23 @@ body, html {
   background: url('./images/background.jpg') no-repeat center center/cover;
 }
 
+.hero-nosotros {
+  position: relative;
+  height: 100vh;
+  background: url('./images/cts-nosotros.jpg') no-repeat center center/cover;
+}
+
+.hero-productos {
+  position: relative;
+  height: 100vh;
+  background: url('./images/cts-productos.jpg') no-repeat center center/cover;
+}
+.hero-clientes {
+  position: relative;
+  height: 100vh;
+  background: url('./images/cts-clientes.jpg') no-repeat center center/cover;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -92,6 +109,7 @@ body, html {
   z-index: 2;
   padding: 0 100px;
   top: 30%;
+  width: 75%;
 }
 
 .hero-content h1 {
@@ -113,6 +131,28 @@ body, html {
   max-width: 900px;
 }
 
+.hero-content-productos {
+  padding: 0 20px;
+  height: auto;
+}
+
+.hero-content-productos h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #575757;
+}
+.hero-content-productos span {
+  display: block;
+  font-size: 2.2rem;
+  color: #575757;
+}
+.hero-content-productos p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #ccc;
+  max-width: 900px;
+}
 
 /* ----------------------------
    Responsive Styles for Mobile
@@ -168,6 +208,7 @@ body, html {
   .hero-content p {
     font-size: 0.9rem;
   }
+
 }
 
 /* Burger menu button */

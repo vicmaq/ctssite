@@ -29,7 +29,7 @@ body, html {
 .hero-clientes {
   position: relative;
   height: 100vh;
-  background: url('./images/cts-clientes.jpg') no-repeat center center/cover;
+  background: url('./images/cts-cliente.jpg') no-repeat center center/cover;
 }
 .hero-soporte {
   position: relative;

@@ -31,7 +31,16 @@ body, html {
   height: 100vh;
   background: url('./images/cts-clientes.jpg') no-repeat center center/cover;
 }
-
+.hero-soporte {
+  position: relative;
+  height: 100vh;
+  background: url('./images/cts-soporte.jpg') no-repeat center center/cover;
+}
+.hero-contacto {
+  position: relative;
+  height: 100vh;
+  background: url('./images/cts-contacto.jpg') no-repeat center center/cover;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -153,7 +162,48 @@ body, html {
   color: #ccc;
   max-width: 900px;
 }
-
+.hero-content-clientes {
+  padding: 0 20px;
+  height: auto;
+}
+.hero-content-clientes h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #575757;
+}
+.hero-content-clientes span {
+  display: block;
+  font-size: 2.2rem;
+  color: #575757;
+}
+.hero-content-clientes p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #ccc;
+  max-width: 900px;
+}
+.hero-content-soporte {
+  padding: 0 20px;
+  height: auto;
+}
+.hero-content-soporte h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #575757;
+}
+.hero-content-soporte span {
+  display: block;
+  font-size: 2.2rem;
+  color: #575757;
+}
+.hero-content-soporte p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #ccc;
+  max-width: 900px;
+}
 /* ----------------------------
    Responsive Styles for Mobile
 ----------------------------- */
